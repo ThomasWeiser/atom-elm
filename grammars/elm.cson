@@ -185,7 +185,7 @@
         'name': 'keyword.other.colon.elm'
       '5':
         'name': 'invalid.illegal'
-    'end': '$\\n?'
+    'end': '^(?!\\s)'
     'name': 'meta.function.type-declaration.elm'
     'patterns': [
       {
