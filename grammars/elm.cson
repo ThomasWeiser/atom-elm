@@ -39,7 +39,7 @@
       }
       {
         'match': '[a-z]+'
-        'name': 'invalid'
+        'name': 'invalid.illegal'
       }
     ]
   }
@@ -49,7 +49,7 @@
       '1':
         'name': 'keyword.other.elm'
       '3':
-        'name': 'invalid'
+        'name': 'invalid.illegal'
     'end': '($|;)'
     'name': 'meta.import.elm'
     'patterns': [
@@ -172,7 +172,7 @@
       '4':
         'name': 'keyword.other.colon.elm'
       '5':
-        'name': 'invalid'
+        'name': 'invalid.illegal'
     'end': '$\\n?'
     'name': 'meta.function.type-declaration.elm'
     'patterns': [
