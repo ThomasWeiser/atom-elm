@@ -70,6 +70,18 @@
     ]
   }
   {
+    'begin': '^\\b(type)\\s+((alias)\\s+)?(\\b[A-Z][A-Za-z_\'0-9]*(\\s+[a-z][A-Za-z_\'0-9]*)*)'
+    'beginCaptures':
+      '1':
+        'name': 'keyword.other.elm'
+      '3':
+        'name': 'keyword.other.elm'
+      '4':
+        'name': 'storage.type.elm'
+    'end': '='
+    'name': 'meta.type-definition.elm'
+  }
+  {
     'begin': '(\\[)(markdown)(\\|)'
     'beginCaptures':
       '1':
