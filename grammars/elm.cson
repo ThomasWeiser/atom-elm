@@ -70,7 +70,7 @@
     ]
   }
   {
-    'begin': '^\\b(type)\\s+((alias)\\s+)?(\\b[A-Z][A-Za-z_\'0-9]*(\\s+[a-z][A-Za-z_\'0-9]*)*)'
+    'begin': '^\\b(type)\\s+((alias)\\s+)?((\\b[A-Z][A-Za-z_\'0-9]*)(\\s+[a-z][A-Za-z_\'0-9]*)*)'
     'beginCaptures':
       '1':
         'name': 'keyword.other.elm'
@@ -78,6 +78,8 @@
         'name': 'keyword.other.elm'
       '4':
         'name': 'storage.type.elm'
+      '5':
+        'name': 'storage.type.name.elm'
     'end': '='
     'name': 'meta.type-definition.elm'
   }
